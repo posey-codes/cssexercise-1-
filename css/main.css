@@ -1,0 +1,48 @@
+li:first-child{
+    color:black;
+}
+
+li::first-letter{
+    font-size: 25px;
+}
+
+#breakfast{
+    color: rgb(218, 185, 4);
+}
+
+#lunch{
+    color: orange;
+}
+
+#dinner{
+    color: blue;
+}
+
+a[href^="http"]{
+    color: red;
+    font-size: 25px;
+}
+
+a:visited {
+    color: rgb(55, 255, 5);
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+h2{
+    background-color: rgb(226, 219, 178);
+}
+
+p{
+    background-color: hsla(25, 100%, 40%, .3);
+}
+
+body{
+    width: calc(100% - 200px);
+}
+
+h1{
+    width: 15vw;
+}
