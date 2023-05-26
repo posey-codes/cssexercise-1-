@@ -4,10 +4,11 @@
        <meta charset="utf-8">
        <title>CSS Exercise Week 2</title>
        <link rel="stylesheet" href="css/main.css">
+       <link rel="icon" type="image/x-cion" href="img/favicon.png">
        <meta name="description" content="css exercise for comm 261 at ndsu  ">
        <meta name="keywords" content="css, exercise, web, development   ">
       <script>
-        src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
       </script>
 <title>CSS Exercise Week 2</title>
 
@@ -15,52 +16,28 @@
 <body>
 <header>
 <h1>Dakota Bistro</h1>
+<img style="width: 150px; height: 150px" src="img/logo.png">
 </header>
 <section>
+  <br>
 <p>At the Dakota Bistro, you decide what will be included in your meal by choosing from our varied list of fresh ingredients. Then your meal is custom made for you - no dry meals sitting under heat lamps! You'll receive exactly the meal you want, fresh and hot.</p>
 
 <nav>
-    <ul>
-      <li><a href="#breakfast">Breakfast</a></li>
-      <li><a href="#lunch">Lunch</a></li>
-      <li><a href="dinner">Dinner</a></li>
-      <li><a href="https://www.delish.com/cooking/recipe-ideas/g3246/easy-desserts/">Dessert</a></li>
+    <ul  id="index_nav">
+      <li><a href="breakfast.html"><img src="img/breakfast.jpg" alt="breakfast example" height="100px" /></a></li>
+      <li>
+        <div>
+          <a href="lunch.html"><img src="img/lunch.jpg" alt="lunch example" width="100%"/></a>
+        </div>
+      </li>
+      <li><a href="dinner.html"><img src="img/dinner.jpg" alt="dinner example" height="100px" /></a></li>
     </ul>
-
 </nav>
+<video width="320" height="240" controls>
+  <source src="img/bbq-grill_Trim.mp4">
+</video>
 
-<p>
-<img src="img/breakfast.jpg" alt="breakfast example" height="100px" />
-<img src="img/lunch.jpg" alt="lunch example" height="100px" />
-<img src="img/dinner.jpg" alt="dinner example" height="100px" />
-</p>
-
-<article id="breakfast">
-  <h2>Breakfast Menu</h2>
-  <ul>
-  <li>Design your own omelet</li>
-  <li>Have a country breakfast</li>
-  <li>Lighten up with all things healthy</li>
-  </ul>
-</article>
-
-<article id="lunch">
-  <h2>Lunch Menu</h2>
-  <ul>
-  <li>Design your own burger</li>
-  <li>Design your own sandwich</li>
-  <li>Design your own salad</li>
-  </ul>
-</article>
-
-<article id="dinner">
-  <h2>Dinner Menu</h2>
-  <ul>
-  <li>Made from scratch home-styled dinner</li>
-  <li>Meat and potatoes please</li>
-  <li>Try a signature dish</li>
-  </ul>
-</article>
+</video>
 </section>
 <footer>
 <h3>Our Mission</h3>

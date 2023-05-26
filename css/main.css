@@ -31,18 +31,50 @@ a:hover{
     background-color: blueviolet;
 }
 
-h2{
-    background-color: rgb(226, 219, 178);
-}
-
 p{
     background-color: hsla(25, 100%, 40%, .3);
 }
 
-body{
-    width: calc(100% - 200px);
+header{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#index_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
 }
 
-h1{
-    width: 15vw;
+#full_breakfast_background{
+
+  min-height: 100%;
+  min-width: 1024px;
+	
+ 
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
+#bigvd {
+    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.viewport-header {
+    position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  } 
